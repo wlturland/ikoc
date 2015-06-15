@@ -17,7 +17,7 @@
 					<span class="glyphicon glyphicon-plus"></span> Quick Info </a></p>
 					<p><%= product.name %></p>
 					<p><strong><%= number_to_currency product.price %></strong></p>
-					<%= button_to 'Add to Cart', class: "btn btn-success btn-sm" %>
+					<%= button_to 'Add to Cart', line_items_path(product_id: product), class: "btn btn-success btn-sm" %>
 				</div>
 			</div>
 		</div>

@@ -19,7 +19,7 @@ namespace :db do
 			product.price = Faker::Commerce.price
 			product.quantity = rand(2..50)
 			product.description = Faker::Lorem.sentences(3)
-			product.category_id = rand(1..5)
+			product.category_id = rand(1..6)
 		end #population
 	end #task
 
