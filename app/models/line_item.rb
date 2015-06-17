@@ -8,3 +8,6 @@ class LineItem < ActiveRecord::Base
  end
 
 end
+
+# TODO Fix Cart Delete redirect to redirect to cart_id instead of line items table.
+
